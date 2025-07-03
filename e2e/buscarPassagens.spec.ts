@@ -20,5 +20,6 @@ test.describe('Buscar Passagens', () => {
         await paginaPrincipal.buscarPassagens();
 
         await paginaPrincipal.estaMostrandoPassagem('Somente ida', 'Minas Gerais', 'Rio de Janeiro');
-    }); 
+        await paginaPrincipal.confirmarCompra();
+    });
 });

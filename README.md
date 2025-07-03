@@ -1,3 +1,18 @@
+# Projeto de estudo Alura
+- Tem como intuido se basear como funciona uma estrutura de teste e futuramente aplicar em outros sites aperfeiçoar os estudos em Playwright, seja usando Typescript ou Java Script
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![Jornada Milhas](thumbnail.png)
 
 # Jornada Milhas

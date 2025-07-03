@@ -106,7 +106,7 @@ export default class PaginaPrincial {
         await expect(this.botaoComprar).toBeVisible();
     }
 
-    // async confirmarCompra() {
-    //     await this.botaoComprar.click();
-    // }
+    async confirmarCompra() {
+        await this.botaoComprar.click();
+    }
 }

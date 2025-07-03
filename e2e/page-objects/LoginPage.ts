@@ -1,4 +1,12 @@
-import { Locator, Page, expect } from "@playwright/test";
+import { Locator, Page, test as base, expect } from "@playwright/test";
+
+export const test = base.extend<{ loginPage: LoginPage }>({
+    loginPage: async ({ page }, use) => {
+        const loginPage = new LoginPage(page);
+        await loginPage.visitarLogin();
+        await use(loginPage);
+    }
+})
 
 export default class LoginPage {
     private readonly page: Page
